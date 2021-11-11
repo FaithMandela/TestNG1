@@ -1,0 +1,12 @@
+
+<suite name="suite1">
+    <test thread-count="5" name="test1">
+        <classes>
+            <class name="Tests.SignIn">
+                <method>
+                    <include name="SignIn"></include>
+                </method>
+            </class>
+        </classes>
+    </test>
+</suite>

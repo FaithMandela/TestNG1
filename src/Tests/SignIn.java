@@ -35,8 +35,6 @@ public class SignIn {
         webDriver = new ChromeDriver();
         webDriver.get(baseUrl);
         Thread.sleep(1000);
-
-
     }
 
     @Test(priority = 1)
